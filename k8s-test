@@ -2,13 +2,12 @@ network:
   ethernets:
     ens160:
       addresses:
-      - 10.137.84.181/24
-      gateway4: 10.137.84.1
+      - <IP host>/24
+      gateway4: <IP Gateway>
       nameservers:
         addresses:
         - 8.8.8.8
         - 8.8.4.4
-        - 10.137.79.53
-        - 10.137.79.54
+        - <IP DNS Server>
         search: []
   version: 2
