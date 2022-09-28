@@ -2,7 +2,7 @@ network:
   ethernets:
     ens160:
       addresses:
-      - <IP host>/24
+      - [<IP host>/24]
       gateway4: <IP Gateway>
       nameservers:
         addresses:
@@ -11,3 +11,18 @@ network:
         - <IP DNS Server>
         search: []
   version: 2
+ 
+# Ex:
+# network:
+#   ethernets:
+#     ens160:
+#       addresses:
+#       - [10.137.84.200/24]
+#       gateway4: 10.137.84.1
+#       nameservers:
+#         addresses:
+#         - 8.8.8.8
+#         - 8.8.4.4
+#         - <IP DNS Server>
+#         search: []
+#   version: 2
