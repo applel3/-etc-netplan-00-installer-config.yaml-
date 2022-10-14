@@ -17,7 +17,7 @@ network:
 #   ethernets:
 #     ens160:
 #       addresses:
-#       - [10.137.84.200/24]
+#       - 10.137.84.200/24
 #       gateway4: 10.137.84.1
 #       nameservers:
 #         addresses:
